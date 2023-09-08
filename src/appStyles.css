@@ -1,0 +1,97 @@
+/* appStyles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E5E5E5;  /* Slight gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #FFF;  /* White background */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #007AFF;  /* iCloud blue for links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #005BB5;  /* Slightly darker blue on hover */
+}
+
+/* Home Content Styles */
+.home-content {
+    width: 80%;
+    max-width: 1200px;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FFF;  /* White background for content */
+    border-radius: 12px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);  /* Subtle shadow */
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* Welcome Message */
+.welcome-message {
+    flex: 100%; 
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;  /* Dark text for contrast */
+}
+
+/* Calendar Styles */
+.calendar {
+    flex: 1;
+    margin: 20px;
+    background-color: #F9F9F9;  /* Light gray for differentiation */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Photo Gallery Styles */
+.photo-gallery {
+    flex: 1;
+    margin: 20px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Shared Files Styles */
+.shared-files {
+    flex: 1;
+    margin: 20px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

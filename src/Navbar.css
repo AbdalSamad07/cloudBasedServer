@@ -1,0 +1,32 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space out the navbar items */
+    padding: 1rem; /* Give some padding to the navbar */
+    background-color: #020000; /* A basic dark background for the navbar */
+}
+
+.navbar a, .navbar .logout-btn {
+    color: rgb(0, 0, 0); /* Make the text color white */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 1rem; /* Provide space between navbar items */
+    padding: 10px 150px; /* Adjust the padding as necessary */
+    border: none; /* Remove any default browser styling */
+    background-color: transparent; /* Set the button to have no background color */
+    cursor: pointer; /* Make it clear items are clickable */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover, .navbar .logout-btn:hover {
+    background-color: #cc2222; /* Darken the item slightly when hovered over */
+}
+
+.logout-btn {
+    border: 2px solid rgb(0, 0, 0); /* Add a border to make the logout button more prominent */
+    border-radius: 4px; /* Give the button slightly rounded corners */
+}
+
+.logout-btn:focus {
+    outline: none; /* Remove the browser's default focus outline */
+}
